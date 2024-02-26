@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.colorPerfect{
+  color:#2196F3;
+}
+.colorGreat{
+  color:#4CAF50;
+}
+.colorGood{
+  color:#FF9800;
+}
+.colorBad{
+  color:#9C27B0;
+}
+.colorMiss{
+  color:#F44336;
+}
+
+/* page content */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 20px;
+}
+
+.content h1 {
+  font-size: 2rem;
+}
+
+#error-page {
+  /* center content on the page */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
